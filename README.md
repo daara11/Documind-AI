@@ -27,23 +27,33 @@ Prerequisites:
 - Maven (or the included Maven Wrapper)
 - Ollama
 
-Running the Project:
+## Running the Project Locally
+
+**Note:** DocuMind AI is currently configured to run locally on the developer's computer. It is not hosted as a public web application. To run it on another computer, the following prerequisites and setup steps are required.
 
 1. Clone the repository:
-git clone https://github.com/daara11/Documind-AI.git
+   git clone https://github.com/daara11/Documind-AI.git
+   
+2. Open the cloned project folder.
 
-2. Open the project folder.
+3. Install Java 21 and Ollama on your computer.
 
-3. Install and start Ollama.
+4. Download the required AI model:
+   ```bash
+   ollama pull llama3.2:3b
+   ```
 
-4. Download the model:
-ollama pull llama3.2:3b
-
-5. Run the Spring Boot application from the project directory:
-mvnw.cmd spring-boot:run
+5. Start Ollama and run the Spring Boot application from the project directory:
+   ```powershell
+   .\mvnw.cmd spring-boot:run
+   ```
 
 6. Open the application in your browser:
-http://localhost:8080/index.html
+   ```text
+   http://localhost:8080/index.html
+   ```
+
+**Important:** The application runs on the computer where it is started. Other users cannot access your local application through this address. Each user must set up and run the project on their own computer.
 
 Future Enhancements:
 
@@ -72,3 +82,5 @@ Built as a learning,beginner and portfolio project using Java, Spring Boot, and 
 ![PDF Extraction](pdf-extraction.png)
 ### AI-Powered PDF Summary
 ![AI Summary](ai-summary.png)
+### AI-Powered PDF Chat
+![PDF Chat](pdf-chat.png)
