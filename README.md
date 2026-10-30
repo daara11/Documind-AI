@@ -67,4 +67,4 @@ Built as a learning,beginner and portfolio project using Java, Spring Boot, and 
 ## 📸 Application Preview
 
 ### Homepage
-![DocuMind AI Homepage](screenshots/homepage.png)
+![DocuMind AI Homepage](Screenshot%202026-10-30%20145208.png)
