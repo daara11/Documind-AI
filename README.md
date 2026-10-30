@@ -62,3 +62,9 @@ GitHub: https://github.com/daara11
 
 
 Built as a learning,beginner and portfolio project using Java, Spring Boot, and Local AI.
+
+
+## 📸 Application Preview
+
+### Homepage
+![DocuMind AI Homepage](screenshots/homepage.png)
