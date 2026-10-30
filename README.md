@@ -70,3 +70,5 @@ Built as a learning,beginner and portfolio project using Java, Spring Boot, and 
 ![DocuMind AI Homepage](Screenshot%202026-10-30%20145208.png)
 ### PDF Text Extraction
 ![PDF Extraction](pdf-extraction.png)
+### AI-Powered PDF Summary
+![AI Summary](ai-summary.png)
