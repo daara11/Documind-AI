@@ -22,23 +22,6 @@ Llama 3.2 (3B)| Language model
 HTML, CSS, JavaScript| Frontend development
 Maven| Dependency management
 
-Project Structure
-
-DocuMind-AI/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/documind/
-│   │   │       ├── controller/
-│   │   │       ├── service/
-│   │   │       └── DocumindApplication.java
-│   │   └── resources/
-│   │       ├── static/
-│   │       └── application.properties
-│   └── test/
-├── pom.xml
-└── README.md
-
 Prerequisites:
 - Java JDK
 - Maven (or the included Maven Wrapper)
